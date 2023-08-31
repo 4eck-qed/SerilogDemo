@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/schaper/Projects/simplic-oxs-logging/SerilogDemo/SerilogDemo.csproj": {}
+  },
+  "projects": {
+    "/home/schaper/Projects/simplic-oxs-logging/SerilogDemo/SerilogDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/schaper/Projects/simplic-oxs-logging/SerilogDemo/SerilogDemo.csproj",
+        "projectName": "SerilogDemo",
+        "projectPath": "/home/schaper/Projects/simplic-oxs-logging/SerilogDemo/SerilogDemo.csproj",
+        "packagesPath": "/home/schaper/.nuget/packages/",
+        "outputPath": "/home/schaper/Projects/simplic-oxs-logging/SerilogDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/schaper/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/schaper/Documents/NuGet/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/simplic-cloud/_packaging/simplic-cloud/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

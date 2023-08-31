@@ -1,0 +1,12 @@
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/bin/Debug/net7.0/SerilogDemo.Extensions.deps.json
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/bin/Debug/net7.0/SerilogDemo.Extensions.dll
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/bin/Debug/net7.0/SerilogDemo.Extensions.pdb
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.csproj.AssemblyReference.cache
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.AssemblyInfoInputs.cache
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.AssemblyInfo.cs
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.csproj.CoreCompileInputs.cache
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.dll
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/refint/SerilogDemo.Extensions.dll
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/SerilogDemo.Extensions.pdb
+/home/schaper/Projects/simplic-oxs-logging/SerilogDemo.Extensions/obj/Debug/net7.0/ref/SerilogDemo.Extensions.dll

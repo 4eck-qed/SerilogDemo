@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "c4fTd7U1Gj1mgFJaPmtCqcZfm+c8ENF1ANJj9Lh6QHE=",
+  "Source": "SerilogDemo.Server",
+  "BasePath": "_content/SerilogDemo.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
