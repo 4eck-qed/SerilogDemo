@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SerilogDemo.Extensions\SerilogDemo.Extensions.csproj" />
+    <ProjectReference Include="..\SerilogDemo.Service\SerilogDemo.Service.csproj" />
   </ItemGroup>
 
 </Project>

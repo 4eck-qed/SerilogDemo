@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo.Extensions", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo.Server", "SerilogDemo.Server\SerilogDemo.Server.csproj", "{4347938D-DD06-466F-A127-3ADAB98348DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo.Service", "SerilogDemo.Service\SerilogDemo.Service.csproj", "{F8AAE37E-BB6F-4958-8393-F63203DFCEFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4347938D-DD06-466F-A127-3ADAB98348DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4347938D-DD06-466F-A127-3ADAB98348DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4347938D-DD06-466F-A127-3ADAB98348DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AAE37E-BB6F-4958-8393-F63203DFCEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AAE37E-BB6F-4958-8393-F63203DFCEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AAE37E-BB6F-4958-8393-F63203DFCEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AAE37E-BB6F-4958-8393-F63203DFCEFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
