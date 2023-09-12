@@ -10,7 +10,7 @@ var builder = Host.CreateDefaultBuilder(args)
                 {
                     LogToConsole = true,
                     LogToFile = true,
-                    ConsoleLogOptions = new ConsoleLogOptions { LogLevel = LogLevel.Trace },
+                    ConsoleLogOptions = new ConsoleLogOptions { LogLevel = LogLevel.Debug },
                     FileLogOptions = new FileLogOptions
                     {
                         LogLevel = LogLevel.Information,
