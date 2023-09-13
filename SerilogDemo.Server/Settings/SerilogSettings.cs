@@ -13,7 +13,7 @@ internal class SerilogSettings
         if (LogToConsole)
         {
             configuration.WriteTo.Console(
-                outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u4} {Caller}] {Message:lj}{NewLine}{Exception}",
+                outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u4} {CallerColored}] {Message:lj}{NewLine}{Exception}",
                 theme: ConsoleTheme,
                 restrictedToMinimumLevel: ConsoleLogOptions.LogLevel.ToLogEventLevel()
             );

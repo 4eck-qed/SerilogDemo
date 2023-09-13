@@ -2,6 +2,7 @@
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.Logging;
 using Serilog.Context;
+using Serilog.Core.Enrichers;
 using Serilog.Events;
 
 namespace Simplic.OxS.Logging.Extensions;
@@ -80,19 +81,6 @@ public static class LoggingExtensions
             _ => throw new ArgumentOutOfRangeException(nameof(logLevel), logLevel, null)
         };
 
-    // private static IDisposable FunctionScope(string caller)
-    // {
-    //     try
-    //     {
-    //         const string fnColor = "\u001b[33m";
-    //         return LogContext.PushProperty("Fn", $".{fnColor}{caller}");
-    //     }
-    //     catch (Exception)
-    //     {
-    //         return LogContext.PushProperty("Fn", "");
-    //     }
-    // }
-
     private static IDisposable CallerScope()
     {
         try
@@ -105,9 +93,12 @@ public static class LoggingExtensions
             const string classColor = "\u001b[38;2;30;216;184m";
             const string noColor = "\u001b[0m";
 
-            return LogContext.PushProperty(
-                "Caller",
-                $"{classColor}{callerType}{noColor}.{fnColor}{callerFn}"
+            return LogContext.Push(
+                new PropertyEnricher("Caller", $"{callerType}.{callerFn}"),
+                new PropertyEnricher(
+                    "CallerColored",
+                    $"{classColor}{callerType}{noColor}.{fnColor}{callerFn}"
+                )
             );
         }
         catch (Exception)
