@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{0E08E944-3A70-4848-8AA7-C56DA9F0C2BF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo.Extensions", "SerilogDemo.Extensions\SerilogDemo.Extensions.csproj", "{CA1962D0-C5D4-4D1C-8855-60BBC108B366}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo.Server", "SerilogDemo.Server\SerilogDemo.Server.csproj", "{4347938D-DD06-466F-A127-3ADAB98348DB}"
